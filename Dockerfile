@@ -8,7 +8,7 @@ Maintainer "Marc Kurz"
 LABEL alert="marc.kurz@fh-hagenberg.at"
 
 # Install python and pip
-RUN apk add -update py2-pip
+RUN apk add --update py2-pip
 
 # Upgrade pip
 RUN pip install --upgrade pip
