@@ -15,9 +15,7 @@ images = [
 @app.route('/')
 def index():
     url = random.choice(images)
-    print(url)
     hostname = platform.node()
-    print(hostname)
     return render_template('index.html', url=url, hostname=hostname)
 
 
