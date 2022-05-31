@@ -8,7 +8,8 @@ app = Flask(__name__)
 #list of cat images
 images = [
     "https://brunocapuano.files.wordpress.com/2016/06/swarmnado.gif",
-    "https://i.giphy.com/OP7kIfBat5sGY.gif"
+    "https://i.giphy.com/OP7kIfBat5sGY.gif",
+    "https://i.imgur.com/0BpqqmW.gif"
 ]
 
 @app.route('/')
