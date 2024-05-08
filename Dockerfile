@@ -22,7 +22,7 @@ COPY app.py /usr/src/app/
 COPY templates/index.html /usr/src/app/templates/
 
 #Expose the app on Flask default
-EXPOSE 5000
+EXPOSE 5001
 
 # Run the application
 CMD ["python", "/usr/src/app/app.py"]
