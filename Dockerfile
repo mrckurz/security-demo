@@ -1,5 +1,5 @@
 # use Alpine as base
-FROM alpine:3.5
+FROM alpine:3.11
 
 # Maintainer
 Maintainer "Marc Kurz"
